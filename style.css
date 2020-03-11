@@ -1,0 +1,59 @@
+#gradient {
+  height: 100%;
+  background-color: pink; /* For browsers that do not support gradients */
+  background-image: linear-gradient(pink, white, pink); /* Standard syntax (must be last) */
+}
+
+.quote{
+    color: #4f3d40;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    border-style: solid;
+    border-color: black;
+}
+
+body{
+    background-color: white;
+    font-family: 'Gupter', serif;
+}
+
+#masthead img{
+
+    display: block;
+    padding-left: 245px;
+}
+
+#gallery iframe{
+    padding:10px;
+    display: block;
+    padding-left: 200px;
+}
+
+/*Didn't get the chance to get the media queries right, so I'll have to check on this for resubmission*/
+@media screen and (max-width: 500px) {
+    #masthead img{
+        max-width: 250px;
+  }
+}
+
+#firstp::first-letter{
+    font-size: 4em;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+p.imgcap{
+    text-align: center;
+    font-style: italic;
+}
+
+#sideimg1{
+    padding-top: 150px;
+}
+
+#sideimg2{
+    padding-top: 200px;
+}
